@@ -1,0 +1,236 @@
+@media (max-width:1215px) {
+    .container{
+        max-width: 100%;
+    }
+    .header-section .header-left .logo a h2 {
+       
+        margin-left: 35px;
+        font-size: 29px;
+    }
+    .header-right .menu ul li a {
+        font-size: 13px;
+        padding: 10px 22px;
+    }
+    .banner-content h2 {
+        font-size: 50px;
+       
+    }
+    .service-section {
+        padding: 60px 18px;
+       
+    }
+    .s-box p {
+        font-size: 14px;
+    }
+    .about-section {
+        padding: 50px 37px;
+    }
+    .about-heading  p {
+        margin-bottom: 61px;
+    }
+    .about-content .about-img img {
+        width: 428px;
+    }
+    .about-text .text p {
+        margin-bottom: 35px;
+        font-size: 13px;
+    }
+    .banner-section {
+        background-size: cover;
+        padding: 170px 0px;
+    }
+}
+@media (max-width:1150px) {
+    .about-text {
+        float: right;
+        width: 56%;
+    }
+    .about-content .about-img {
+        float: left;
+        width: 43%;
+    }
+    .about-content .about-img img {
+        width: 448px;
+    }
+    .about-text .text p {
+    
+        line-height: 17px;
+    }
+}
+@media (max-width:1090px) {
+    .about-content .about-img img {
+        width: 100%;
+    }
+    .about-content .about-img {
+        float: left;
+        width: 100%;
+    }
+    .about-text {
+        text-align: center;
+        width: 100%;
+    }
+    .about-text .text p {
+        font-size: 17px;
+        line-height: 28px;
+    }
+    .about-section {
+        padding: 50px 37px;
+    }
+    .about-text .text h6 {
+        margin-top: 19px;
+    }
+
+}
+@media (max-width:830px) {
+    .header-right .menu ul li a {
+        font-size: 12px;
+        padding: 10px 15px;
+    }
+    .header-section .header-left .logo a h2 {
+        margin-left: 32px;
+        font-size: 25px;
+    }
+    .banner-section {
+     
+        padding: 100px 0px;
+    }
+    .banner-content h2 {
+        font-size: 34px;
+    }
+    .banner-content p {
+        font-size: 16px;
+
+    }
+    .banner-content a {
+        padding: 7px 23px;
+       
+    }
+
+}
+@media (max-width:720px) {
+    .service-item .s-box {
+        width: 50%;
+        padding: 0 24px;
+        margin-bottom: 30px;
+    }
+}
+@media (max-width:696px) {
+    .header-section .header-left {
+        width: 100%;
+        text-align: center;
+    }
+    .header-right {
+        width: 100%;
+        text-align: center;
+    }
+    .header-right .menu ul {
+        text-align: center;
+        margin-top: 7px;
+    }
+    .header-right .menu ul li a {
+        font-size: 10px;
+        padding: 10px 29px;
+    }
+    .header-section .header-left .logo a h2 {
+        margin-left: 0;
+    }
+}
+@media (max-width:582px) {
+    .header-right .menu ul li a {
+        padding: 10px 25px;
+    }
+    .banner-section {
+        padding: 80px 0px;
+    }
+    .banner-content h2 {
+        font-size: 28px;
+    }
+    .service-item .s-box {
+        width: 100%;
+        padding: 0 97px;
+      
+    }
+    .contact-box {
+        
+        width: 100%;
+   
+    }
+    .fotter-top ul li a {
+        font-size: 15px;   
+    }
+    .fotter-bottom p {
+        font-size: 12px;
+    }
+}
+@media (max-width:535px) {
+    .header-right .menu ul li a {
+        padding: 10px 10px;
+    }
+    .header-section {
+        padding: 2px 0px;
+    }
+    .header-section .header-left .logo a h2 {
+        font-size: 17px;
+        margin-top: 7px;
+    }
+    .about-text .text p {
+        font-size: 12px;
+        line-height: 28px;
+    }
+    .contact-heading  p {
+        margin-bottom: 30px;
+        font-size: 16px;
+        padding: 0 23px;
+    }
+    .contact-section {
+        padding: 29px 0px;
+    }
+    .fotter-bottom {
+        padding: 3px 0px;
+      
+    }
+    .about-section {
+        padding: 20px 37px;
+    }
+}
+@media (max-width:354px) {
+    .header-right .menu ul li a {
+        padding: 8px 6px;
+    }
+    .banner-section {
+        padding: 28px 0px;
+    }
+    .banner-content h2 {
+        font-size: 17px;
+        margin-top: 14px;
+    }
+    .banner-content p {
+        font-size: 12px;
+    }
+    .banner-content a {
+        padding: 7px 10px;
+        font-size: 12px;
+    } 
+    .service-heading p {
+        margin-bottom: 3px;
+        font-size: 12px;
+    }
+    .service-heading h4 {
+        font-size: 22px;
+        
+    }
+    .about-heading  p {
+        margin-bottom: 29px;
+        font-size: 12px;
+    }
+    .contact-heading h4 {
+        font-size: 26px;
+    }
+    .contact-heading  p {
+        margin-bottom: 25px;
+        font-size: 13px;
+    }
+    .fotter-top ul li a {
+        font-size: 12px;
+    }
+}

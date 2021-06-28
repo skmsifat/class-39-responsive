@@ -1,0 +1,342 @@
+/* Reset css Here */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+/* Default Css Here */
+
+.container{
+    width: 1200px;
+    margin: 0px auto;
+}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+    
+}
+
+img{
+    max-width: 100%;
+}
+p{
+    color: rgb(126, 123, 123);
+}
+
+/* Header section css Here */
+
+.header-section{
+    background-color: #22c3a3;
+    padding: 20px 0px;
+    box-shadow: 2px 0px 10px rgba(0,0,0,0.5);
+    position: sticky;
+    top: 0;
+    z-index: 999;
+   
+}
+
+
+.header-section .header-left{
+    float: left;
+    width: 30%;
+}
+.header-section .header-left .logo a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+.header-section .header-left .logo a h2{
+    font-weight: 400;
+}
+
+
+/* Header right/ menu section css here */
+
+.header-right{
+    float: right;
+    width: 70%;
+}
+
+
+.header-right .menu ul{
+    list-style: none;
+    text-align: right;
+}
+.header-right .menu ul li{
+    display: inline-block;
+}
+.header-right .menu ul li a {
+	display: inline-block;
+	font-size: 16px;
+	padding: 10px 24px;
+	text-decoration: none;
+	color: #fff;
+	font-weight: 400;
+	text-transform: uppercase;
+    transition: .5s;
+}
+.header-right .menu ul li a:hover{
+    color: rgb(255, 230, 0);
+}
+
+
+/* Banner Section css Here */
+
+.banner-section{
+    background-image: url(https://i.ibb.co/TTygLFc/assfignmentj.png);
+    background-size: 100% 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 200px 0px;
+}
+
+
+/* Banner Content css here */
+
+.banner-content{
+    text-align: center;
+}
+.banner-content h2 {
+	font-size: 65px;
+	color: #fff;
+	font-weight: 600;
+	margin-bottom: 25px;
+}
+.banner-content p {
+	color: #beece5;
+	font-weight: 600;
+	font-size: 22px;
+	margin-bottom: 20px;
+}
+.banner-content a {
+	text-decoration: none;
+	color: #fafafa;
+	border: 1px solid #fafafa;
+	display: inline-block;
+	padding: 9px 26px;
+	border-radius: 4px;
+	margin-top: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+
+/* Before use & Creating button hover effect */
+
+.banner-content a::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 99.6%;
+    height: 100%;
+    background-color: rgb(4, 0, 255);
+  
+    border-radius: 4px;
+    z-index: -1;
+    transform: scaleX(0);
+    transition: transform .5s ease-in;
+    transform-origin: right;
+
+}
+
+.banner-content a:hover::before{
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+
+/* Service Section Css Here */
+
+.service-section{
+    padding: 60px 0px;
+    position: relative;
+}
+
+.service-section::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: turquoise;
+}
+
+
+.service-heading{
+    text-align: center;
+    background-color: #ffffff;
+}
+.service-heading h4 {
+	font-size: 30px;
+	font-weight: 400;
+	margin-bottom: 10px;
+}
+.service-heading p{
+    margin-bottom: 30px;
+    
+}
+
+
+/* Service Section box design */
+
+.service-item{
+    text-align: center;
+    padding-top: 40px;
+}
+
+.service-item .s-box{
+    float: left;
+    width: 25%;
+}
+
+.service-item .s-box span {
+	display: inline-block;
+	color: #0dbf9b;
+	font-size: 33px;
+	margin-bottom: 15px;
+}
+.service-item .s-box h6 {
+	font-size: 15px;
+	font-weight: 600;
+	margin-bottom: 8px;
+}
+
+
+
+/* About Section Css HEre */
+
+.about-section{
+    text-align: center;
+    padding-top: 60px;
+}
+
+
+.about-heading h4 {
+	font-size: 30px;
+	font-weight: 400;
+	margin-bottom: 10px;
+}
+.about-heading  p{
+    margin-bottom: 30px;
+    
+}
+
+
+/* About Content css Here */
+
+.about-content {
+	text-align: left;
+	margin-top: 40px;
+    padding-bottom: 40px;
+}
+.about-content .about-img{
+    float: left;
+    width: 40%;
+}
+.about-content .about-img img {
+    width: 460px;
+
+}
+
+.about-text{
+    float: right;
+    width: 60%;
+}
+.about-text .text h6 {
+	font-size: 20px;
+	font-weight: 400;
+	margin-bottom: 8px;
+}
+.about-text .text p {
+	margin-bottom: 15px;
+   
+}
+
+
+/* Contact Section Css Here */
+
+.contact-section{
+    text-align: center;
+    background-color: #f6f6f6;
+    padding: 70px 0px;
+}
+
+/* Contact box css here */
+
+.contact-box{
+    float: left;
+    width: 33%;
+    margin-top: 40px;
+}
+.contact-box span {
+	color: #0dbf9b;
+	margin-bottom: 8px;
+	display: inline-block;
+	font-size: 20px;
+}
+.contact-box p{}
+
+
+
+
+
+.contact-heading h4 {
+	font-size: 30px;
+	font-weight: 400;
+	margin-bottom: 10px;
+}
+.contact-heading  p{
+    margin-bottom: 30px;
+    
+}
+
+/* Fotter top Css here */
+
+.fotter-top{
+    background-color: #0dbf9b;
+    padding: 17px 0px;
+}
+
+.fotter-top ul{
+    list-style: none;
+    text-align: center;
+}
+.fotter-top ul li{
+    display: inline-block;
+    
+}
+.fotter-top ul li a{
+    color: #fff;
+    display: inline-block;
+    padding: 0px 20px;
+    font-size: 22px;
+    transition: .5s;
+}
+
+.fotter-top ul li a:hover{
+    color: rgb(238, 255, 0);
+}
+
+
+/* Fotter bottom / copyright css here */
+
+.fotter-bottom{
+    padding: 8px 0px;
+    background-color: #222222;
+    text-align: center;
+}
+
+.fotter-bottom p{
+    font-size: 17px;
+}
+
+
+
